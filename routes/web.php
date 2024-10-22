@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\DepanController;
+
+use App\Http\Controllers\TaskConttroler;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +21,5 @@ Route::get('/', function () {
 });
 
 Route::get('/depan', [DepanController::class, 'index']);
+
+Route::get('/landingpage', [TaskConttroler::class, 'index']);
