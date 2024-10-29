@@ -9,10 +9,6 @@
     --heading-font : 'Raleway', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body{
     background-color: var(--body-color);
     font-family: var(--main-font);
@@ -20,7 +16,7 @@ body{
 
 *{
     margin: 0;
-    padding: 1px;
+    padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
@@ -239,9 +235,6 @@ section{
 /* HOme End */
 
 /* service start */
-.service {
-    padding: 50px;
-}
 .service .service-wrapper{
     margin: auto;
 }
